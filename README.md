@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Upul Electricals Website
+
+A modern, responsive business website for **Upul Electricals**, designed to showcase electrical services, electronics repairs, and appliance assistance. The website provides customers with information about the business, its services, and ways to get in touch.
+
+## Features
+
+- **Home Page** – Hero section introducing the business, services preview, and key benefits.
+- **About Page** – Information about the business, its approach, and customer-focused service.
+- **Services Page** – Overview of electrical, electronics repair, and appliance services.
+- **Contact Page** – Contact information and links to help customers reach the business.
+- **Responsive Design** – Layout adapted for desktop, tablet, and mobile devices.
+- **Navigation** – Shared navigation header and footer across pages.
+- **Modern UI** – Clean design featuring navy blue, white, and orange brand colors.
+- **Lucide Icons** – Icons to improve navigation and visual presentation.
+- **Smooth Scrolling** – Smooth movement between page sections.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+
+## Project Structure
+
+```text
+upul_electricals/
+├── app/
+│   ├── about/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── services/
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── Home/
+│   │   └── layout/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── images/
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+*Note: This structure shows the main application files. Other configuration files may be present in the project.*
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js
+- npm
+- A code editor such as Visual Studio Code
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/ChamathSandaru9/upul_electricals.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd upul_electricals
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Install the dependencies:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit:
+
+   http://localhost:3000
+
+## Design
+
+The website uses a clean and professional design with a consistent color palette:
+
+- **Navy Blue** – `#142B4A`
+- **White** – `#FFFFFF`
+- **Orange** – Used for highlights, accents, and interactive elements.
+
+The interface is designed to make business information easy to understand and navigation simple across different screen sizes.
+
+## Project Goals
+
+- Build a professional online presence for an electrical and electronics repair business.
+- Present services and business information clearly.
+- Make it easy for customers to find contact details.
+- Practise modern front-end development using Next.js, React, TypeScript, and Tailwind CSS.
+- Develop a responsive project suitable for a software development portfolio.
+
+## Future Improvements
+
+- Add an online service request form.
+- Integrate a backend and database for managing customer enquiries.
+- Add customer reviews and testimonials.
+- Add a gallery of completed repair projects.
+- Deploy the website to a hosting platform.
+
+## Author
+
+**Developed by:** Chamath Sandaru
+
+- GitHub: [@ChamathSandaru9](https://github.com/ChamathSandaru9)
+- Project: Upul Electricals Website
+
+This project was developed to practise modern front-end web development using Next.js, React, TypeScript, and Tailwind CSS.
+
+## License
+
+This project is intended for educational and portfolio purposes. Add a license if you plan to distribute or reuse the source code under specific terms.

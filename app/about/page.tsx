@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowRight,
   ShieldCheck,
@@ -88,25 +89,24 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Visual Panel */}
-          <div className="relative flex min-h-[350px] items-center justify-center overflow-hidden rounded-2xl bg-gray-100 p-8 sm:min-h-[420px]">
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-100 via-gray-100 to-blue-100" />
-
-            <div className="relative max-w-sm text-center">
-              <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-2xl bg-[#142B4A] text-orange-400 shadow-xl">
-                <Wrench size={44} />
-              </div>
-
-              <h3 className="mt-7 text-2xl font-bold text-[#142B4A]">
+        {/* Image Panel */}
+        <div className="relative min-h-[350px] sm:min-h-[420px]">
+            <div className="absolute -bottom-3 -right-3 h-full w-full rounded-2xl bg-orange-150" />
+            <img
+            src="/images/about-image.png"
+            alt="Electronics technician providing professional repair services"
+            className="relative z-10 h-[350px] w-full rounded-2xl object-cover shadow-lg sm:h-[420px]"
+            />
+            <div className="absolute bottom-5 left-5 right-5 z-20 rounded-xl bg-white/95 p-3 shadow-lg backdrop-blur-sm sm:bottom-8 sm:left-8 sm:right-8">
+            <h3 className="text-xl font-bold text-[#142B4A] sm:text-2xl">
                 Service You Can Turn To
-              </h3>
-
-              <p className="mt-3 leading-7 text-gray-600">
-                Helping customers find practical solutions
-                for their electrical and appliance needs.
-              </p>
+                </h3>
+                <p className="mt-0 text-sm leading-6 text-gray-600 sm:text-base">
+                    Reliable electrical and electronics repair solutions you can trust.
+                </p>
             </div>
-          </div>
+        </div>
+
         </div>
       </section>
 
